@@ -21,6 +21,10 @@ no.459 Repeated Substring Pattern 8/5/24
 no.66 Plus One 8/5/24
 done iteratively
 
+runtime: 0mx beats 100%
+no. 1822 Signs of the Product on an Array
+simple
+
 
 
 ### About me
