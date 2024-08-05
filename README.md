@@ -21,10 +21,13 @@ no.459 Repeated Substring Pattern 8/5/24
 no.66 Plus One 8/5/24
 done iteratively
 
-runtime: 0mx beats 100%
+runtime: 0ms beats 100%
 no. 1822 Signs of the Product on an Array
 simple
 
+runtime: 3ms beats 14%
+no.1502 Can Make Arithmetic Progression From Sequence
+simple 1. sort 2. check a[0] - a[1] and continue traversing
 
 
 ### About me
