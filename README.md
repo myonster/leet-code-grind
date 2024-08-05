@@ -15,6 +15,12 @@
 
 8ms beats 92.59%
 no.459 Repeated Substring Pattern 8/5/24
+(better to use two pointer) my solution runs O(nlogn) but we can do it in O(n)
+
+0ms beats 100%
+no.66 Plus One 8/5/24
+done iteratively
+
 
 
 ### About me
