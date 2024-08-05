@@ -29,6 +29,11 @@ runtime: 3ms beats 14%
 no.1502 Can Make Arithmetic Progression From Sequence
 simple 1. sort 2. check a[0] - a[1] and continue traversing
 
+runtime: 1ms beats 98.59%
+no.896 Monotonic Array
+simple 1. set up 2 boolean condition => 1.presence of trend 2.increasing/decreasing ==> there will be a scenario where it just starts from 0 diff
+
+
 
 ### About me
 
