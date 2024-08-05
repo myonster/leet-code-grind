@@ -10,7 +10,11 @@
 | ------- | ---- | --------------------------------------------------------- | ---------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------ |
 | 7/26/24 | 389  | Find the Difference                                       | Hash Table String Bit Manipulation Sort  | Easy       | [Here](https://leetcode.com/problems/find-the-difference/)                                       |
 | 7/18/24 | 2971 | Merge Strings Alternately                                 | Two Pointers String                      | Easy       | [Here](https://leetcode.com/problems/merge-strings-alternately/)                                 |
+|
 <br>
+
+8ms beats 92.59%
+no.459 Repeated Substring Pattern 8/5/24
 
 
 ### About me
