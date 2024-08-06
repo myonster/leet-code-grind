@@ -42,6 +42,9 @@ runtime: 0ms beats 100%
 no. 58 Length of Last Word
 simple built in java string methods => strip() to remove white spaces for edge cases and used lastIndexOf(" ")
 
+runtime: 0ms beats 100%
+no. 709. To Lower Case
+simple built in syntax for java .toLowerCase();
 
 ### About me
 
