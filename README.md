@@ -51,6 +51,11 @@ no. 682 Baseball Game
 used stack to peek pop and push different operations to maintain O(1) operations to ensure O(N) for the whole algo
 
 
+runtime: 4ms beats 96.77%
+no. 657 Robot Return to Origin
+array size of 2 to depict x-y axis => each operation is used as moving along the graph
+O(n) time
+
 ### About me
 
 My name is **jeremy** I'm a computing student who loves coding and programming.
