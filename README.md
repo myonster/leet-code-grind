@@ -46,9 +46,14 @@ runtime: 0ms beats 100%
 no. 709. To Lower Case
 simple built in syntax for java .toLowerCase();
 
+runtime: 2ms beats 88%
+no. 682 Baseball Game
+used stack to peek pop and push different operations to maintain O(1) operations to ensure O(N) for the whole algo
+
+
 ### About me
 
-My name is **Jerey Myo!** I'm a computing student who loves coding and programming.
+My name is **jeremy** I'm a computing student who loves coding and programming.
 
 one day🙏
 Check out my projects: https://github.com/myonster
