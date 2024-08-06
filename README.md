@@ -33,6 +33,14 @@ runtime: 1ms beats 98.59%
 no.896 Monotonic Array
 simple 1. set up 2 boolean condition => 1.presence of trend 2.increasing/decreasing ==> there will be a scenario where it just starts from 0 diff
 
+runtime: 10ms beats 10%
+no. 13 Roman to Integer
+i used hashmap, solutions online used case and switch(have to learn more on this)
+but both case it still O(n)
+
+runtime: 0ms beats 100%
+no. 58 Length of Last Word
+simple built in java string methods => strip() to remove white spaces for edge cases and used lastIndexOf(" ")
 
 
 ### About me
