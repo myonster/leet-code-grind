@@ -56,6 +56,17 @@ no. 657 Robot Return to Origin
 array size of 2 to depict x-y axis => each operation is used as moving along the graph
 O(n) time
 
+runtime: 0ms beats 100%
+no. 1275 Find Winner on a Tic Tac Toe Game
+Array question, i tackle it by giving making an large array so easier to count, there is 4 win con -> horizontal vertical and 2 diagonals for every position if we look at
+it from a free space board, so overflowing position counts will be added but it will be +0 count; player A was given positive -1 count for his position
+and player B was given -1 for his position, then we can just check if the one of the 4 win con adds up to +3 or -3.
+
+runtime: 1ms beats 22%
+no. 1041. Robot Bounded In Circle {MEDIUM}
+loop it 4 times to see if it goes back to (0,0) => in recursion to find the last location,
+maybe there is a better way?
+
 ### About me
 
 My name is **jeremy** I'm a computing student who loves coding and programming.
