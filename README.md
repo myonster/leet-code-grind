@@ -67,6 +67,11 @@ no. 1041. Robot Bounded In Circle {MEDIUM}
 loop it 4 times to see if it goes back to (0,0) => in recursion to find the last location,
 maybe there is a better way?
 
+runtime: 2ms beats 20%
+no. 1672 Richest Customer Wealth
+O(m x n) => no other way but a question of java optimisation ==> streams parallel better or just 2 iterative for loops?
+
+
 ### About me
 
 My name is **jeremy** I'm a computing student who loves coding and programming.
