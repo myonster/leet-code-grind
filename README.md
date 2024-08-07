@@ -80,6 +80,11 @@ O(n) => take note of how each index of the array correlates to which number gets
 [7,8,9] 2nd index => row[2] = 9  row[length - 1 - *2*] = 7 sum -> 4 + 5 + 9 +7
 
 
+runtime: 0ms beats 100%
+no. 54 Spiral Matrix
+O(nlogn) => travesering the matrices => include directions and boundaries and also extra conditions to handle edge cases
+main thing to take note of was to properly handle each change in direction and proper boundary change 
+
 ### About me
 
 My name is **jeremy** I'm a computing student who loves coding and programming.
