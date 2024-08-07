@@ -16,22 +16,23 @@ class SetMatrixZeroes {
 					index[i] = true;
 				}
 
-			if (haveZero) {
-				rowIsZero[j] = true;
-				matrix[j] = new int [matrix[j].length];
-			}
 				// if (index[i] > 0) {
 				// 	//System.out.println("index is 0, column affected!");
 				// 	matrix[j][i] = 0;
 				// }
 			}
+
+			if (haveZero) {
+				rowIsZero[j] = true;
+				matrix[j] = new int [matrix[j].length];
+			}
 		}
 
 		for (int j = 0; j < matrix.length; j++) {
-			if (rowIsZero[j]) {
+			if (!rowIsZero[j]) {
 				for (int i = 0; i < matrix[j].length; i++) {
 					if (index[i]) {
-						matrix[i][j] = 0;
+						matrix[j][i] = 0;
 					}
 				}
 			}
