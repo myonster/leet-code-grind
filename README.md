@@ -71,6 +71,14 @@ runtime: 2ms beats 20%
 no. 1672 Richest Customer Wealth
 O(m x n) => no other way but a question of java optimisation ==> streams parallel better or just 2 iterative for loops?
 
+runtime: 0ms beats 100%
+no. 1572 Matrix Diagonal Sum
+O(n) => take note of how each index of the array correlates to which number gets selected in the particular row
+
+[1,2,3] 0th index => row[0] = 1  row[length - 1 - *0*] = 3 sum -> 4
+[4,5,6] 1st index => row[1] = 5  row[length - 1 - *1*] = 5 sum -> 4 + 5 (but we cannot double add this so always check if the [index] we are calling is the same) 
+[7,8,9] 2nd index => row[2] = 9  row[length - 1 - *2*] = 7 sum -> 4 + 5 + 9 +7
+
 
 ### About me
 
