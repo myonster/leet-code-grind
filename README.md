@@ -85,6 +85,11 @@ no. 54 Spiral Matrix
 O(nlogn) => travesering the matrices => include directions and boundaries and also extra conditions to handle edge cases
 main thing to take note of was to properly handle each change in direction and proper boundary change 
 
+runtime: 0ms beats 100%
+no. 1523 Count Odd Numbers in an Interval Range
+just need to know the logic of math => (3,7) => 7-3+1 => to get numbers involved and then / 2 and + 1 if both are odd;
+
+
 ### About me
 
 My name is **jeremy** I'm a computing student who loves coding and programming.
