@@ -97,6 +97,14 @@ runtime: 2ms beats 95.30%
 no. 860 Lemonade Change
 simple math executed with if else switch case conditions, just need to take note of using the $10 to change $20 first if we can.
 
+runtime: 2ms beats 98.58%
+no. 976 Largest Perimeter Triangle
+focus on the rule of sum of 2 sides of triangle must be bigger than one side or the difference is smaller than one side
+but when we sort the array => smaller to bigger: we only need to take a look at one rule as trivial solution
+smallest + second smallest > third smallest to fulfil a triangle, this was O(n) +nlog(n) for sorting,
+however to optimise for a few ms of runtime you can run this for loop from the back which i did to improve abit as the largest will always be at
+the back or similarly sort with biggest => largest and loop from index 0.
+
 
 ### About me
 
