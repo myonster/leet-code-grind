@@ -89,6 +89,10 @@ runtime: 0ms beats 100%
 no. 1523 Count Odd Numbers in an Interval Range
 just need to know the logic of math => (3,7) => 7-3+1 => to get numbers involved and then / 2 and + 1 if both are odd;
 
+runtime: 2ms beats 5%
+no.1491 Average Salary Excluding the Minimum and Maximum Salary
+learnt about Integer.MAX_VALUE and Integer.MIN_VALUE => other than that solution would have been faster if i did not factor bigdecimal
+
 
 ### About me
 
