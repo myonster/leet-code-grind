@@ -93,6 +93,10 @@ runtime: 2ms beats 5%
 no.1491 Average Salary Excluding the Minimum and Maximum Salary
 learnt about Integer.MAX_VALUE and Integer.MIN_VALUE => other than that solution would have been faster if i did not factor bigdecimal
 
+runtime: 2ms beats 95.30%
+no. 860 Lemonade Change
+simple math executed with if else switch case conditions, just need to take note of using the $10 to change $20 first if we can.
+
 
 ### About me
 
