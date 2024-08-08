@@ -105,6 +105,12 @@ smallest + second smallest > third smallest to fulfil a triangle, this was O(n) 
 however to optimise for a few ms of runtime you can run this for loop from the back which i did to improve abit as the largest will always be at
 the back or similarly sort with biggest => largest and loop from index 0.
 
+runtime: 0ms beats 100%
+no. 1232 Check if It Is a Straight Line
+focus on the math part; y = mx + c => i made 3 flagging conditions either run = 0 -> this will check for x only -> straight horizontal line
+rise = 0 -> this will check for y only because it is a straight vertical line
+rise/run normal => will calculate for the c in y =mx + c -> check if the coordinate fit the equation.
+
 
 ### About me
 
