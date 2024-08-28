@@ -111,6 +111,11 @@ focus on the math part; y = mx + c => i made 3 flagging conditions either run = 
 rise = 0 -> this will check for y only because it is a straight vertical line
 rise/run normal => will calculate for the c in y =mx + c -> check if the coordinate fit the equation.
 
+runtime: 3ms beats 25%
+no. 67 Add Binary
+this was more of a technical difficulty i faced in trying to fix the number of runs, like different string with different lengths, java does not have negative indexing
+like python where you can do string[-1] to start from the back, i used StringBuilder reverse and setLength to tackle this issue but need to find a more efficient way,
+but runs the same time complexity
 
 ### About me
 
