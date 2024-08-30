@@ -117,6 +117,14 @@ this was more of a technical difficulty i faced in trying to fix the number of r
 like python where you can do string[-1] to start from the back, i used StringBuilder reverse and setLength to tackle this issue but need to find a more efficient way,
 but runs the same time complexity
 
+runtime: 3ms beats 59.14%
+no. 43 Multiply Strings
+not allowed to use BigInteger or directly convert to int, so I did this in a more traditional algorithm, multiplying two numbers just like in primary school
+it uses O(m+n) space complexity and run in O(m*n) time complexity, i init an array of m+n size because 2 numbers multiplied will always result in a maximum of m + n digits
+and then loop the first number from first digit to multiply with a loop of digits of the second number, with the add and 'carry over' the excess sum logic, after the first digit
+of the first number, i will then traverse to add the index of array for the next digit and repeat.
+
+
 ### About me
 
 My name is **jeremy** I'm a computing student who loves coding and programming.
