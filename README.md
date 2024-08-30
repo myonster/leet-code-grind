@@ -32,6 +32,7 @@
 | 8/5/24  | 1232 | Check if It Is a Straight Line                            | Array, Math, Geometry                    | Easy       | [Here](https://leetcode.com/problems/check-if-it-is-a-straight-line/)                            |
 | 8/5/24  | 67   | Add Binary                                                | String, Math                             | Easy       | [Here](https://leetcode.com/problems/add-binary/)                                                |
 | 8/5/24  | 43   | Multiply Strings                                          | String, Math                             | Medium     | [Here](https://leetcode.com/problems/multiply-strings/)                                          |
+| 8/5/24  | 50   | Pow(x,n)                                                  | Math, Recursion                          | Medium     | [Here](https://leetcode.com/problems/powx-n/)                                                    |
 
 ---
 
@@ -124,6 +125,10 @@
 - **3ms beats 59.14%**  
 **Problem**: no. 43 Multiply Strings  
 **Note**: not allowed to use BigInteger or directly convert to int, so I did this in a more traditional algorithm, multiplying two numbers just like in primary school it uses O(m+n) space complexity and run in O(m*n) time complexity, i init an array of m+n size because 2 numbers multiplied will always result in a maximum of m + n digits and then loop the first number from first digit to multiply with a loop of digits of the second number, with the add and 'carry over' the excess sum logic, after the first digit of the first number, i will then traverse to add the index of array for the next digit and repeat.
+
+- **26 ms beats 5%**
+**Problem**: no. 50 Pow(x,n)
+**Note**: tasked to implement power, used recursion to achieve O(logn) but had difficulties with handling edge cases like `INTEGER.MAX_VALUE` and `INTEGER.MIN_VALUE`
 
 ---
 
