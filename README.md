@@ -33,7 +33,7 @@
 | 8/5/24  | 67   | Add Binary                                                | String, Math                             | Easy       | [Here](https://leetcode.com/problems/add-binary/)                                                |
 | 8/5/24  | 43   | Multiply Strings                                          | String, Math                             | Medium     | [Here](https://leetcode.com/problems/multiply-strings/)                                          |
 | 8/5/24  | 50   | Pow(x,n)                                                  | Math, Recursion                          | Medium     | [Here](https://leetcode.com/problems/powx-n/)                                                    |
-
+| 8/5/24  | 21   | Merge Two Sorted Lists                                    | LinkedLists                              | Easy       | [Here](https://leetcode.com/problems/merge-two-sorted-lists/)                                    |
 ---
 
 ### Performance Notes
@@ -52,7 +52,7 @@
 
 - **3ms beats 14%**  
 **Problem**: no.1502 Can Make Arithmetic Progression From Sequence  
-**Note**: simple 1. sort 2. check a[0] - a[1] and continue traversing
+**Note**: simple 1. sort 2. check `a[0] - a[1]` and continue traversing
 
 - **1ms beats 98.59%**  
 **Problem**: no.896 Monotonic Array  
@@ -64,11 +64,11 @@
 
 - **0ms beats 100%**  
 **Problem**: no. 58 Length of Last Word  
-**Note**: simple built in java string methods => strip() to remove white spaces for edge cases and used lastIndexOf(" ")
+**Note**: simple built in java string methods => strip() to remove white spaces for edge cases and used `lastIndexOf(" ")`
 
 - **0ms beats 100%**  
 **Problem**: no. 709 To Lower Case  
-**Note**: simple built in syntax for java .toLowerCase();
+**Note**: simple built in syntax for java `.toLowerCase();`
 
 - **2ms beats 88%**  
 **Problem**: no. 682 Baseball Game  
@@ -104,7 +104,7 @@
 
 - **2ms beats 5%**  
 **Problem**: no.1491 Average Salary Excluding the Minimum and Maximum Salary  
-**Note**: learnt about Integer.MAX_VALUE and Integer.MIN_VALUE => other than that solution would have been faster if i did not factor bigdecimal
+**Note**: learnt about `Integer.MAX_VALUE` and `Integer.MIN_VALUE` => other than that solution would have been faster if i did not factor bigdecimal
 
 - **2ms beats 95.30%**  
 **Problem**: no. 860 Lemonade Change  
@@ -129,6 +129,11 @@
 - **26 ms beats 5%**
 **Problem**: no. 50 Pow(x,n)
 **Note**: tasked to implement power, used recursion to achieve O(logn) but had difficulties with handling edge cases like `INTEGER.MAX_VALUE` and `INTEGER.MIN_VALUE`
+
+- **0ms beats 100%**
+**Problem** no. 21 Merge Two Sorted Lists
+**Note**: List node is a data structure which holds a val and next, use recursion to check curr and then if null return the other and continue passing on until reach base case.
+
 
 ---
 
