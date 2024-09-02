@@ -35,6 +35,7 @@
 | 8/5/24  | 50   | Pow(x,n)                                                  | Math, Recursion                          | Medium     | [Here](https://leetcode.com/problems/powx-n/)                                                    |
 | 9/2/24  | 21   | Merge Two Sorted Lists                                    | LinkedLists                              | Easy       | [Here](https://leetcode.com/problems/merge-two-sorted-lists/)                                    |
 | 9/2/24  | 206  | Reverse Linked List                                       | LinkedLists                              | Easy       | [Here](https://leetcode.com/problems/reverse-linked-list/)                                       |
+| 9/2/24  | 2    | Add Two Numbers                                           | LinkedLists                              | Medium     | [Here](https://leetcode.com/problems/add-two-numbers/)                                           |
 ---
 
 ### Performance Notes
@@ -138,6 +139,12 @@
 - **0ms beats 100%**
 **Problem**: no. 206 Reverse Linked List
 **Note**: an easy problem but implementing the logic of reversing the nodes were abit confusing at first, i did it by creating a new node to handle the current node and point to the previous node.
+
+- **1ms beats 100%**
+**Problem**: no. 2 Add Two Numbers
+**Note**: medium question, logic was easy as i just had to keep track of which curr i am pointing to for both ListNodes, had alot of difficulty in trying to implement the result node
+like i wasn't very sure how to keep track of the current and then next (`nodeToLookAt`) so in the end i init 2 nodes one that initially pointed to `nodeToLookAt` and then just kept changing the next node of `nodeToLookAt`,
+and then returned a .next.next of the head node `resultNode`.
 
 ---
 
