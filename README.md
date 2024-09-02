@@ -33,7 +33,8 @@
 | 8/5/24  | 67   | Add Binary                                                | String, Math                             | Easy       | [Here](https://leetcode.com/problems/add-binary/)                                                |
 | 8/5/24  | 43   | Multiply Strings                                          | String, Math                             | Medium     | [Here](https://leetcode.com/problems/multiply-strings/)                                          |
 | 8/5/24  | 50   | Pow(x,n)                                                  | Math, Recursion                          | Medium     | [Here](https://leetcode.com/problems/powx-n/)                                                    |
-| 8/5/24  | 21   | Merge Two Sorted Lists                                    | LinkedLists                              | Easy       | [Here](https://leetcode.com/problems/merge-two-sorted-lists/)                                    |
+| 9/2/24  | 21   | Merge Two Sorted Lists                                    | LinkedLists                              | Easy       | [Here](https://leetcode.com/problems/merge-two-sorted-lists/)                                    |
+| 9/2/24  | 206  | Reverse Linked List                                       | LinkedLists                              | Easy       | [Here](https://leetcode.com/problems/reverse-linked-list/)                                       |
 ---
 
 ### Performance Notes
@@ -131,9 +132,12 @@
 **Note**: tasked to implement power, used recursion to achieve O(logn) but had difficulties with handling edge cases like `INTEGER.MAX_VALUE` and `INTEGER.MIN_VALUE`
 
 - **0ms beats 100%**
-**Problem** no. 21 Merge Two Sorted Lists
+**Problem**: no. 21 Merge Two Sorted Lists
 **Note**: List node is a data structure which holds a val and next, use recursion to check curr and then if null return the other and continue passing on until reach base case.
 
+- **0ms beats 100%**
+**Problem**: no. 206 Reverse Linked List
+**Note**: an easy problem but implementing the logic of reversing the nodes were abit confusing at first, i did it by creating a new node to handle the current node and point to the previous node.
 
 ---
 
