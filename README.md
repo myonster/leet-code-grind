@@ -36,8 +36,8 @@
 | 9/2/24  | 21   | Merge Two Sorted Lists                                    | LinkedLists                              | Easy       | [Here](https://leetcode.com/problems/merge-two-sorted-lists/)                                    |
 | 9/2/24  | 206  | Reverse Linked List                                       | LinkedLists                              | Easy       | [Here](https://leetcode.com/problems/reverse-linked-list/)                                       |
 | 9/2/24  | 2    | Add Two Numbers                                           | LinkedLists                              | Medium     | [Here](https://leetcode.com/problems/add-two-numbers/)                                           |
-| 9/3/24  | 1    | Two Sum                                           		 | Array, Hash Table                        | Easy     	 | [Here](https://leetcode.com/problems/two-sum/)                                           |
-
+| 9/3/24  | 1    | Two Sum                                          		 | Array, Hash Table                        | Easy     	 | [Here](https://leetcode.com/problems/two-sum/)                                                   |
+| 9/3/24  | 20   | Valid Parentheses                                  		 | String, Stack                            | Easy     	 | [Here](https://leetcode.com/problems/valid-parentheses/)                                         |
 ---
 
 ### Performance Notes
@@ -152,6 +152,11 @@ and then returned a .next.next of the head node `resultNode`.
 **Problem**: no. 1 Two Sum
 **Note**: a very classic problem that can be approached in many ways, i did hashmap where i go through the array from index 0, each time i come across a number i will minus from target and see `containsKey()` in java HashMap
 with O(1) time complexity, if there is a complement of that number then return the respective index and if there is not then insert into the hashmap... can this be done with a HashSet knowing that the array is not sorted and we need to return the following indexes.
+
+- **2ms beats 98%**
+**Problem**: no. 20 Valid Parentheses
+**Note**: classic stack problem, just be careful of the logic, every opening bracket push into stack, every closing bracket we have to first check if we are pushing into an empty stack, this will be invalid immediately, next we check if the closing bracket matches the popped bracket from the stack.
+in the end after we have looped through we can return if the stack is empty because there might be a scenario where there are only opening brackets and fill the stack.
 
 ---
 
