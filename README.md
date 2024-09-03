@@ -36,6 +36,8 @@
 | 9/2/24  | 21   | Merge Two Sorted Lists                                    | LinkedLists                              | Easy       | [Here](https://leetcode.com/problems/merge-two-sorted-lists/)                                    |
 | 9/2/24  | 206  | Reverse Linked List                                       | LinkedLists                              | Easy       | [Here](https://leetcode.com/problems/reverse-linked-list/)                                       |
 | 9/2/24  | 2    | Add Two Numbers                                           | LinkedLists                              | Medium     | [Here](https://leetcode.com/problems/add-two-numbers/)                                           |
+| 9/3/24  | 1    | Two Sum                                           		 | Array, Hash Table                        | Easy     	 | [Here](https://leetcode.com/problems/two-sum/)                                           |
+
 ---
 
 ### Performance Notes
@@ -145,6 +147,11 @@
 **Note**: medium question, logic was easy as i just had to keep track of which curr i am pointing to for both ListNodes, had alot of difficulty in trying to implement the result node
 like i wasn't very sure how to keep track of the current and then next (`nodeToLookAt`) so in the end i init 2 nodes one that initially pointed to `nodeToLookAt` and then just kept changing the next node of `nodeToLookAt`,
 and then returned a .next.next of the head node `resultNode`.
+
+- **2ms beats 98%**
+**Problem**: no. 1 Two Sum
+**Note**: a very classic problem that can be approached in many ways, i did hashmap where i go through the array from index 0, each time i come across a number i will minus from target and see `containsKey()` in java HashMap
+with O(1) time complexity, if there is a complement of that number then return the respective index and if there is not then insert into the hashmap... can this be done with a HashSet knowing that the array is not sorted and we need to return the following indexes.
 
 ---
 
